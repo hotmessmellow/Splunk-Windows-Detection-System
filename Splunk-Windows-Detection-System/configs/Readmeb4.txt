@@ -1,0 +1,1 @@
+Important: these live in the repo as templates only. When you deploy them onto the UF, you’ll rename to inputs.conf / outputs.conf and edit the indexer IP.

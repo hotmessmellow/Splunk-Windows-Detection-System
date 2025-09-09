@@ -1,0 +1,15 @@
+# Enable Windows Security log (4625 for failed logon)
+[WinEventLog://Security]
+disabled = 0
+index = main
+
+# Enable PowerShell Script Block Logging (4104)
+[WinEventLog://Microsoft-Windows-PowerShell/Operational]
+disabled = 0
+renderXml = true
+index = main
+
+# (Optional) UF health log
+[monitor://$SPLUNK_HOME\var\log\splunk\splunkd.log]
+disabled = 0
+index = main

@@ -1,0 +1,12 @@
+[tcpout]
+defaultGroup = idx_group
+
+[tcpout:idx_group]
+server = 127.0.0.1:9997
+autoLBFrequency = 30
+compressed = true
+sendCookedData = true
+
+# Local indexing off (best practice for UF)
+[indexAndForward]
+index = false
