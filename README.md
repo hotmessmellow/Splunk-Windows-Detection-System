@@ -50,33 +50,6 @@ This project showcases how to forward Windows Security and PowerShell logs into 
 
 ---
 
-## 🔹 Repository Structure
-
-Splunk-Windows-Detection-System/
-│
-├── configs/
-│ ├── inputs.conf
-│ ├── outputs.conf
-│
-├── dashboards/
-│ ├── failed_logons.xml
-│ ├── powershell_activity.xml
-│
-├── tests/
-│ ├── simulate_failed_logons.ps1
-│ ├── simulate_powershell_commands.ps1
-│
-├── screenshots/
-│ ├── failed_logons_search.png
-│ ├── powershell_search.png
-│ ├── dashboard_overview.png
-│
-└── README.md
-
-markdown
-Copy code
-
----
 
 ## 🔹 How to Run
 
@@ -91,8 +64,7 @@ Copy code
    net start splunkforwarder
 Run attack simulations (from tests/ folder):
 
-powershell
-Copy code
+
 .\simulate_failed_logons.ps1
 .\simulate_powershell_commands.ps1
 Search in Splunk:
@@ -117,7 +89,8 @@ Custom Splunk dashboards & queries.
 
 Hands-on threat simulation in a home lab.
 
-About
+
 My project is part of my journey in Security Operations & Threat Detection.
 It demonstrates practical SOC skills: log forwarding, detection engineering, and SIEM dashboards.
+
 
