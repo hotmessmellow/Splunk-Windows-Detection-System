@@ -91,7 +91,8 @@ Hands-on threat simulation in a home lab.
 
 
 My project is part of my journey in Security Operations & Threat Detection.
-It demonstrates practical SOC skills: log forwarding, detection engineering, and SIEM dashboards.
+It involves practical SOC skills: log forwarding, detection engineering, and SIEM dashboards.
+
 
 
 
