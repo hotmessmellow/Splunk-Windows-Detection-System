@@ -1,4 +1,4 @@
-# Splunk Windows Detection System 🚨
+# Splunk Windows Detection System 
 
 A hands-on SIEM project built to detect suspicious Windows activity using **Splunk Enterprise** and the **Splunk Universal Forwarder (UF)**.  
 This project showcases how to forward Windows Security and PowerShell logs into Splunk, simulate attacks, and visualize detections through custom dashboards.  
@@ -51,7 +51,7 @@ This project showcases how to forward Windows Security and PowerShell logs into 
 ---
 
 
-## 🔹 How to Run
+## 🔹 How to Run on your system (reach out if you need any help)
 
 1. **Install Splunk Enterprise** and ensure port **9997** is enabled (Receiving data).  
 2. **Install Splunk Universal Forwarder** on the Windows machine.  
@@ -74,9 +74,9 @@ Failed logons → index=main source="WinEventLog:Security" EventCode=4625
 PowerShell commands → index=main source="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104
 
 🔹 Screenshots
-Failed Logons (4625)	Suspicious PowerShell (4104)
+Failed Logons Dashboard + Search (4625)	Suspicious PowerShell (4104) 
 
-🔹 Skills Demonstrated
+🔹 Project Involves: 
 Splunk SIEM setup (UF + Indexer).
 
 Windows Event Forwarding.
@@ -92,5 +92,6 @@ Hands-on threat simulation in a home lab.
 
 My project is part of my journey in Security Operations & Threat Detection.
 It demonstrates practical SOC skills: log forwarding, detection engineering, and SIEM dashboards.
+
 
 
