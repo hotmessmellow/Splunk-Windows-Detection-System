@@ -5,7 +5,7 @@ This project showcases how to forward Windows Security and PowerShell logs into 
 
 ---
 
-## 🔹 Project Overview
+##  Project Overview
 
 - **Goal:** Detect and monitor common attack techniques on Windows endpoints.  
 - **Tools Used:**  
@@ -16,7 +16,7 @@ This project showcases how to forward Windows Security and PowerShell logs into 
 
 ---
 
-## 🔹 Features & Detections
+##  Features & Detections
 
 ### 1. Failed Logon Attempts
 - EventCode: **4625** (Security Log)  
@@ -34,7 +34,7 @@ This project showcases how to forward Windows Security and PowerShell logs into 
 
 ---
 
-## 🔹 Project Architecture
+##  Project Architecture
 
 1. **Splunk Universal Forwarder (UF):**
    - Installed on Windows endpoint.  
@@ -51,7 +51,7 @@ This project showcases how to forward Windows Security and PowerShell logs into 
 ---
 
 
-## 🔹 How to Run on your system (reach out if you need any help)
+##  How to Run on your system (reach out if you need any help)
 
 1. **Install Splunk Enterprise** and ensure port **9997** is enabled (Receiving data).  
 2. **Install Splunk Universal Forwarder** on the Windows machine.  
@@ -73,10 +73,10 @@ Failed logons → index=main source="WinEventLog:Security" EventCode=4625
 
 PowerShell commands → index=main source="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104
 
-🔹 Screenshots
+ Screenshots
 Failed Logons Dashboard + Search (4625)	Suspicious PowerShell (4104) 
 
-🔹 Project Involves: 
+ Project Involves: 
 Splunk SIEM setup (UF + Indexer).
 
 Windows Event Forwarding.
@@ -92,6 +92,7 @@ Hands-on threat simulation in a home lab.
 
 My project is part of my journey in Security Operations & Threat Detection.
 It involves practical SOC skills: log forwarding, detection engineering, and SIEM dashboards.
+
 
 
 
